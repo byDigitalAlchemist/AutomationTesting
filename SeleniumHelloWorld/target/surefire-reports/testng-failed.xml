@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [org.ak.test.selenium.SeleniumWebTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="org.ak.test.selenium.SeleniumWebTest">
+        <methods>
+          <include name="stopSelenium"/>
+          <include name="testTwitter"/>
+          <include name="startSelenium"/>
+        </methods>
+      </class> <!-- org.ak.test.selenium.SeleniumWebTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [org.ak.test.selenium.SeleniumWebTest] -->
